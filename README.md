@@ -79,7 +79,7 @@
 |`git checkout --track origin<some remote branch name>`|get a remote branch on your local machine|
 |`git branch -d <some local branch name>`|delete the local branch|
 |`git branch -D <some local branch name>`|force delete the local branch|
-|`git push -u origin <some remote branch name>`|delete a remote branch|
+|`git push origin --delete <branch_name>`|delete a remote branch|
 
 ## Pull Requests
 * See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
